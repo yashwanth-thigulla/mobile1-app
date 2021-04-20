@@ -3,7 +3,7 @@ import Card from './Card';
 
 const CardList=  ({robots})=>{
     if(true){
-        throw new Error(<h1>Noooooo!</h1>);
+        throw new Error('Noooooo!');
     }
     const cardcomponent = robots.map((user,i)=>{
         return <Card key={i} id={robots[i].id} name={robots[i].name} email={robots[i].email}/>
